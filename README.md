@@ -19,8 +19,8 @@ Users should be able to:
 A screenshot of the page is included in the asset folder of the project.
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-intro-section-with-dropdown-navigation-H9xKcy_036]
+- Live Site URL: [https://storied-sunflower-df5279.netlify.app]
 
 ### Built with
 - Semantic HTML5 markup
