@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <div class="wrapper">
+      <div class="navbar">
+        <div class="navigation">
+          <h2 class="logo">snap</h2>
+          <a href="#" class="icon-menu"><img src="/images/icon-menu.svg" alt=""></a>
+          <nav>
+            <ul class="menu">
+              <li>
+                <a href="#" class="dropdown-ft">Features <img src="/images/icon-arrow-down.svg" class="arrow" alt=""></a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-coy">Company <img src="/images/icon-arrow-down.svg" class="arrow-up" alt=""></a>
+              </li>
+              <li>
+                <a href="#">Careers</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="nav2">
+            <a href="#"><p class="log">Login</p></a>  
+            <a href="#" class="btn-sm">Register</a> 
+          </nav>
+        </div>
+     </div>
+     <section class="main">
+      <div class="grid">
+        <div class="content">
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync, no matter your location.<br> Streamline processes, 
+            create team rituals,<br> and watch productivity soar.
+          </p>
+          <a href="#" class="btn-lg">Learn more</a> 
+        </div>
+        <div class="hero">
+          <img src="/images/image-hero-desktop.png" alt="laptop man">
+        </div>
+        <div class="hero-mobile">
+          <img src="/images/image-hero-mobile.png" alt="laptop man">
+        </div>
+      </div>
+     </section>
+     <footer class="footer">
+        <div class="container2">
+          <ul class="footer-img">
+            <li>
+              <img src="/images/client-databiz.svg" class="img" alt="">
+            </li>
+            <li>
+              <img src="/images/client-audiophile.svg" id="audio" alt="">
+            </li>
+            <li>
+              <img src="/images/client-meet.svg" class="img" alt="">
+            </li>
+            <li>
+              <img src="/images/client-maker.svg" class="img" alt="">
+            </li>
+          </ul>
+        </div>
+      </footer>  
+      <!-- Features dropdown menu list -->
+            <div class="modal-one">
+              <div class="modal-box">
+                  <ul class="features">
+                    <li>
+                      <img src="/images/icon-todo.svg" alt=""><a href="#">Todo List</a>
+                    </li>
+                    <li>
+                      <img src="/images/icon-calendar.svg" alt=""><a href="#">Calenders</a>
+                    </li>
+                    <li>
+                      <img src="/images/icon-reminders.svg" alt=""><a href="#">Reminders</a>
+                    </li>
+                    <li>
+                      <img src="/images/icon-planning.svg" alt=""><a href="#">Planning</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+              <!-- Company dropdown menu list -->
+            <div class="modal-two"> 
+              <div class="modal-box2">
+                <ul class="company">
+                  <li>
+                    <a href="#">History</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Team</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          <!-- Mobile modal -->
+          <div class="mobile-modal">
+              <div class="mobile-menu">
+                <ul class="mobile-list">
+                  <li>
+                    <a href="#" id="ft">Features <img src="/images/icon-arrow-down.svg" class="arrow-ft" alt=""></a>
+                  </li>
+                    <div class="modal-mobile">
+                      <div class="ft">
+                        <ul>
+                          <li>
+                            <img src="/images/icon-todo.svg" alt=""><a href="#">Todo List</a>
+                          </li>
+                          <li>
+                            <img src="/images/icon-calendar.svg" alt=""><a href="#">Calenders</a>
+                          </li>
+                          <li>
+                            <img src="/images/icon-reminders.svg" alt=""><a href="#">Reminders</a>
+                          </li>
+                          <li>
+                            <img src="/images/icon-planning.svg" alt=""><a href="#">Planning</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  <li>
+                    <a href="#" id="coy">Company <img src="/images/icon-arrow-down.svg" class="arrow-coy" alt=""></a>
+                  </li>
+                <div class="modal-mob">
+                  <div class="coy">
+                    <ul>
+                      <li>
+                        <a href="#">History</a>
+                      </li>
+                      <li>
+                        <a href="#">Our Team</a>
+                      </li>
+                      <li>
+                        <a href="#">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                  <li>
+                    <a href="#">Careers</a>
+                  </li>
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                </ul>
+                <div class="mobile">
+                  <a href="#" class="login">Login</a>  
+                  <a href="#" class="btn">Register</a> 
+                </div>
+                <img class="close" src="/images/icon-close-menu.svg" alt="close">
+            </div>
+        </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Jlbspyder" target="_blank">JLPSPYDER</a>.
+  </div>
+</div>
+  <script src="/main.js"></script>
+</body>
+</html>
